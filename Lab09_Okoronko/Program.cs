@@ -17,6 +17,21 @@ namespace Lab09_Okoronko_ver2
             this.c = c;
             return;
         }
+        public double A 
+        { 
+            get { return a; } 
+            set { a = value > 0 ? value : 0; } 
+        }
+        public double B 
+        { 
+            get { return b; } 
+            set { b = value > 0 ? value : 0; } 
+        }
+        public double C 
+        { 
+            get { return c; } 
+            set { c = value > 0 ? value : 0; } 
+        }
         // Обоснование существования треугольника
         public bool ExisTruangle()
         {
